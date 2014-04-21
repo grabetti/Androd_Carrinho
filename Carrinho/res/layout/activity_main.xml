@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carrinho.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imgImagem"
+            android:layout_width="match_parent"
+            android:layout_height="319dp"
+            android:src="@drawable/abc_ab_bottom_solid_dark_holo" />
+    </FrameLayout>
+
+</FrameLayout>
+
